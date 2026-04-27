@@ -1,0 +1,156 @@
+:root {
+    --bgcolor: #04198C;
+    --txtcolor: #F2CB05;
+    --secondary: #5b4c02;
+    --third: #372e02;
+    --fourth: #ffea82;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bgcolor);
+    color: var(--txtcolor);
+}
+
+header {
+    background-color: var(--secondary);
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+    font-size: 20pt;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--txtcolor);
+}
+
+header nav ul li a:visited {
+    text-decoration: none;
+    color: var(--txtcolor);
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color: var(--fourth);
+    background-color: var(--secondary);
+}
+
+header nav ul li a:active {
+    text-decoration: none;
+    color: var(--txtcolor);
+    background-color: var(--third);
+}
+
+#welcome {
+    text-align: center;
+}
+
+#welcomep {
+    text-align: center;
+}
+
+#gameh1 {
+    text-align: center;
+}
+
+.game-content {
+  position: relative;
+}
+
+.picture1 {
+  position: absolute;
+  left: 170px;
+  top: 200px;
+}
+
+.picture2 {
+  position: absolute;
+  left: 1200px;
+  top: 200px;
+}
+
+.picture1 img {
+  width: 150px;
+  height: 250px;
+}
+
+.picture2 img {
+  width: 150px;
+  height: 250px;
+}
+
+.lists ol {
+  list-style-position: inside;
+  text-align: center;
+  padding-left: 0;
+}
+
+li.listitems {
+    margin-bottom: 9px;
+}
+
+li.listtight {
+    margin-bottom: 2.5px;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 30px 65px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+table thead tr {
+    background-color: var(--secondary);
+    color: var(--txtcolor);
+    text-align: center;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#fomryform {
+    text-align: center;
+}
+
+#Thanksend {
+    text-align: center;
+    padding-top: 10%;
+}
+
+footer {
+    background-color: var(--secondary);
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    bottom: 0;
+}
+
+#moreinfofooter {
+    background-color: var(--secondary);
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    bottom: 0;
+}
