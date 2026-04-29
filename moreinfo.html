@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Info</title>
+    <link rel="icon" type="image/x-icon" href="media/images/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!--header with nav-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="tv&anime.html">TV/Anime</a></li>
+                <li><a href="comics&manga.html">Comics/Manga</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a href="othermedia.html">Other Media</a></li>
+                <li><a href="moreinfo.html">More Info</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 id="gameh1">More Information</h1>
+    <h2 id="gameh1">Here you can view what I've analyzed about the data I've compiled from my favorite media from different mediums.</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Games</th>
+                    <th>TV/Anime</th>
+                    <th>Comics/Manga</th>
+                    <th>Movies</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Most Common Genre</td>
+                    <td>Action Roleplaying/Survival Horror</td>
+                    <td>Action</td>
+                    <td>Superhero</td>
+                    <td>Horror</td>
+                </tr>
+                <tr>
+                    <td>Most Common Decade</td>
+                    <td>2020s</td>
+                    <td>2010s</td>
+                    <td>1980s/2020s</td>
+                    <td>2000s/2010s</td>
+                </tr>
+                <tr>
+                    <td>Most Common Country of Origin</td>
+                    <td>Japan</td>
+                    <td>US</td>
+                    <td>US</td>
+                    <td>US</td>
+                </tr>
+                <tr>
+                    <td>Most Common Publisher/Producer</td>
+                    <td>Capcom</td>
+                    <td>Amazon Prime Video/Adult Swim</td>
+                    <td>DC Comics</td>
+                    <td>None</td>
+                </tr>
+            </tbody>
+        </table>
+    <!--Form Section-->
+    <form action="thankyou.html" id="fomryform">
+        <h1 id="heading">What do you think?</h1>
+            <label>How many stars out of 5:</label>
+                <input type="text" id="fname">
+                <br><br>
+            <label>What's your favorite thing about this site:</label>
+                <input type="text" id="lname">
+                <br><br>
+        <h2>What are your favorite mediums?</h2>
+        <p>(Use the comment box if your medium isn't present)</p>
+                <input type="checkbox" id="medium1" name="medium1" value="games">
+            <label for="medium1">Video Games</label><br>
+                <input type="checkbox" id="medium2" name="medium2" value="TV">
+            <label for="medium2">TV/Anime</label><br>
+                <input type="checkbox" id="medium3" name="medium3" value="comics">
+            <label for="medium3">Comics/Manga</label><br>
+                <input type="checkbox" id="medium4" name="medium4" value="movies">
+            <label for="medium4">Movies</label><br>
+                <input type="checkbox" id="medium5" name="medium5" value="music">
+            <label for="medium5">Music</label><br>
+                <input type="checkbox" id="medium6" name="medium6" value="books">
+            <label for="medium6">Books</label>
+                <br>
+        <h2>Would you use this site again?</h2>
+                <input type="radio" id="yes" name="answer" value="Yes">
+            <label for="yes">Yes</label><br>
+                <input type="radio" id="no" name="answer" value="No">
+            <label for="no">No</label>
+                <br>
+        <p>Comments:</p>
+            <textarea rows="4" cols="50" placeholder="Enter comment here..."></textarea>
+                <br>
+            <button type="reset">Clear</button>
+            <button type="submit">Submit</button>
+    </form>
+    <!--End Form Section-->
+    <br>
+    <footer id="moreinfofooter">
+        <div id="col1"> 
+            <h3>Outlook Address:</h3>
+            <h3>mccoyfm22@juniata.edu</h3>
+            <a href="https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook?deeplink=%2Fmail%2F&sdf=0">
+            <img src="media/images/outlook-logo.png" alt="Fall's Outlook Link" width="100px" height="100px"></a>
+        </div>
+        <div id="col2"> 
+            <h3>Writing Associate Hours</h3>
+            <p>Monday 12:00PM - 4:30PM</p>
+            <p>Wednesday 12:00PM - 4:30PM</p>
+            <p>Friday 12:00PM - 4:30PM</p>
+            <p>Saturday 11:00AM - 4:30PM</p>
+            <p>Sunday 11:00AM - 4:30PM</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
